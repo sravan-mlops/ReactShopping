@@ -4,14 +4,14 @@
     box-sizing: border-box;
     font-family: arial;
 }
-body{
-    border: 5px solid rgb(0, 0, 0);
-}
+
 
 .headerSection{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    background-color: rgb(31, 4, 4);
+    color: antiquewhite;
 }
 
 .center ul li{
@@ -24,7 +24,7 @@ body{
 } 
 
 .left{
-    flex: 4;
+    flex: 2;
     /* border: 1px solid black; */
 }
 .center{
@@ -33,12 +33,42 @@ body{
 }
 .search{
     flex: 2;
+    
     /* border: 1px solid black; */
+   
+}
+.search input{
+    padding: 10px;
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: -150px;
 }
 .right{
-    flex: 4;
+    flex: 3;
     /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
+}
+.bannerBox img{
+    width: 100%;
+}
+.bannerBox{
+    margin: 10px 0px;
+}   
+.menImages{
+    display: flex;
+    gap: 10px;
+} 
+.menImages img{
+    width: 205px;
+    height: 220px;
+}
+.womanImages{
+    display: flex;
+    gap: 10px;
+}
+.womanImages img{
+    width: 205px;
+    height: 220px;
 }
